@@ -9,12 +9,12 @@
 		<version>2.6.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>nit</groupId>
-	<artifactId>SBMSProj01-Flipkart-BillingService-producer-ByNTRZ</artifactId>
+	<groupId>com.niranjana</groupId>
+	<artifactId>SBMSProj01-HystrixDashBoard-CircuitBrk-TicketBook-Service-ByNTRZ</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>SBMSProj01-Flipkart-BillingService-producer-ByNTRZ</name>
-	<description>Flipkart Billing Service Application</description>
+	<name>SBMSProj01-HystrixDashBoard-CircuitBrk-TicketBook-Service-ByNTRZ</name>
+	<description>Ticket Booking Application</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.0</spring-cloud.version>
@@ -39,6 +39,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+			<version>2.2.10.RELEASE</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix-dashboard -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+			<version>2.2.10.RELEASE</version>
 		</dependency>
 
 		<dependency>

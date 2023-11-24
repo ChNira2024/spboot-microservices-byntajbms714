@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.niranjana</groupId>
-	<artifactId>SBMSProj01-Config-Server-ByNTRZ</artifactId>
+	<artifactId>SBMSProj01-Native-Config-Server-ByNTRZ</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>SBMSProj01-Config-Server-ByNTRZ</name>
-	<description>Config Server</description>
+	<name>SBMSProj01-Native-Config-Server-ByNTRZ</name>
+	<description>Native Config Server</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.0</spring-cloud.version>
